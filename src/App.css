@@ -1,7 +1,13 @@
 .App {
   text-align: center;
+  display: flex;
+  width: 100vw;
+  max-width: 100%;
+  justify-content: space-between;
 }
-
+.App > div {
+  width: calc(50% - 20px);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
